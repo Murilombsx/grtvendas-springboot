@@ -17,7 +17,7 @@ import br.com.grtvendasspringboot.utilitarios.LoginService;
 
 @Component
 @Path("/usuario")
-public class UsuarioService {
+public class UsuarioResource {
 
 	@Autowired
 	private UsuarioGerenciador usuarioGerenciador;
