@@ -21,7 +21,7 @@ public class CORSFilter implements Filter {
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
 			throws IOException, ServletException {
 		HttpServletResponse httpResponse = (HttpServletResponse) response;
-		httpResponse.setHeader("Access-Control-Allow-Origin", "https://grtvendas-springboot.herokuapp.com");
+		httpResponse.setHeader("Access-Control-Allow-Origin", "http://localhost:8585");
 		httpResponse.setHeader("Access-Control-Allow-Methods", "POST, GET, PUT, OPTIONS, DELETE");
 		httpResponse.setHeader("Access-Control-Allow-Headers", "X-Auth-Token, Content-Type");
 		httpResponse.setHeader("Access-Control-Expose-Headers", "custom-header1, custom-header2");
