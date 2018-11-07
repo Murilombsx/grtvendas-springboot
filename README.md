@@ -13,3 +13,9 @@ Usuário de exemplo para login:
 Usuário: admin@admin.com.br
 Senha: admin
 
+# Front-end
+
+O Front-end do projeto se encontra no seguinte link:
+
+https://github.com/Murilombsx/grtvendas-front
+
